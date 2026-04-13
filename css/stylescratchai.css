@@ -1,0 +1,68 @@
+/* Custom Background */
+body {
+    background-color: #f0f4f7;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif; /* Font Family Requirement */
+    color: #2c3e50; /* Font Color Requirement */
+    margin: 0;
+    padding: 0;
+}
+
+/* Div 1: Header Positioning */
+#header-container {
+    background-color: #002e5d; /* BYU Navy */
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+#header-container nav a {
+    color: #a5d8ff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* Div 2: Main Content Block */
+#main-content {
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* Div 3: Image Grid Positioning */
+.photo-grid {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.images-container img {
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.images-container img:hover {
+    transform: scale(1.05);
+}
+
+.list-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #002e5d;
+}
+
+.video-section, #tableau-section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 50px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
